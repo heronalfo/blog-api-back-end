@@ -19,7 +19,7 @@ Blog project built with Django.
 
    ```bash
    git clone https://github.com/heronalfo/blog-api-back-end.git
-   cd ecommerce-django
+   cd blog
    ```
 
 ## Install Dependencies
