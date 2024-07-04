@@ -9,6 +9,8 @@ media/
 
 *.db
 
+*.sqlite3
+
 env.py
 
 # Tests Coverage

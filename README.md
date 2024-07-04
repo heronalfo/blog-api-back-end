@@ -18,7 +18,7 @@ Blog project built with Django.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/heronalfo/ecommerce-django.git
+   git clone https://github.com/heronalfo/blog-api-back-end.git
    cd ecommerce-django
    ```
 
