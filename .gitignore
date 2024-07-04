@@ -1,23 +1,19 @@
 
 __pycache__/
 
-# Static files
-
 media/
-
-static/
-
-#py
 
 *.py[cod]
 
 *.bak
 
-.env
+*.db
+
+env.py
 
 # Tests Coverage
 
-htmlcolv/
+htmlcov/
 
 .coverage
 
@@ -62,9 +58,6 @@ coverage.xml
 
 # Developers
 *.sw*
-manage.py
 .DS_Store
 
 #database
-
-db.sqlite3

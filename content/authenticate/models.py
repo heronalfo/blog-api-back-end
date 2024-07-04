@@ -3,18 +3,22 @@ from django.contrib.auth.models import User
 
 class BlogUser(models.Model):
 
-    id_user = models.ForeignKey(User, models.CASCADE)
+    description = models.CharField(max_length=80, default='No bio yet')
+
+    id_user = models.ForeignKey(User, models.CASCADE,  related_name='blog_user')
     
     name = models.CharField(max_length=12)
+        
+    class Index:
     
-    description = models.CharField(max_length=80)
+        fields = ['name', ]
     
     class Meta:
        
         verbose_name = 'blog_user'
         
         verbose_name_plural = 'blog_users'
-        
-    class Index:
+            
+    def __str__(self):
     
-        fields = ['name', ]
+        return self.name
